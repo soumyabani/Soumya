@@ -1,5 +1,6 @@
-TFd Documentation:
- 
+'''
+CTFd Documentation:
+'''
  Technology:
  
  → CTFd - Python, Flask web framework.
@@ -112,3 +113,4 @@ TFd Documentation:
  → export of challenges stats, scorebord, admin metrics, 
  
  → ability to add custom metrics for plugins )
+
