@@ -1,4 +1,3 @@
-Your request is to convert the organized notes on CTFd setup, management, and extension into a readable markdown document resembling a project README. Here is the result in markdown format.
 
 ***
 
@@ -120,3 +119,4 @@ Note: The default Docker Compose configuration does not configure SSL/TLS.
 - **Crisp Chat**: Chat bubble for user communication.
 
 ***
+
