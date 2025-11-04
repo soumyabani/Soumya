@@ -1,9 +1,9 @@
-'''
 CTFd Documentation:
-'''
+
  Technology:
  
  → CTFd - Python, Flask web framework.
+
  
  Installation:
  
@@ -24,18 +24,21 @@ CTFd Documentation:
  → You should now be able to access CTFd at [http://localhost:8000](http://localhost:8000/)
  
  (The default Docker Compose configuration files do not configure SSL/TLS.)
+
  
  Dependencies:
  
  1. WSGI server - installed by default - runs the web application - pass response for the requests from web server.
  2. Database server - default CTFd will create a SQLite database - used with MySQL, MariaDB, or SQLite - not recommended with postgres - ctfd supports JSON data type.
  3. Caching server - The preferred caching server option is Redis.
+
  
  Updation
  
  image field → replace with new version → docker-compose pull → docker-compose up
  
  build field → git pull → docker-compose build → docker-compose up
+ 
  
  Challenges
  
@@ -46,10 +49,12 @@ CTFd Documentation:
  Deploying : 
  
  - 
+
  
  Sign in options
  
  OAuth - Allow users to log in to self hosted CTFd instance using their GitHub accounts, using the credentials from GitHub OAuth app.
+ 
  
  Backup of CTFd instances
  
@@ -57,6 +62,7 @@ CTFd Documentation:
  
  export selected data in csv format.
  
+
  Extending CTFd - plugins, provider etc
  
  Management
@@ -76,11 +82,12 @@ CTFd Documentation:
  
  caution:  *ctfcli is still considered an alpha project and changes will happen.*
  
- 1. Terrafom + CTFd provider
+ 2. Terrafom + CTFd provider
  
  https://registry.terraform.io/providers/ctfer-io/ctfd/latest/docs
  
  https://github.com/ctfer-io/terraform-provider-ctfd
+ 
  
  Integrations
  
@@ -88,6 +95,7 @@ CTFd Documentation:
  2. MajorLeagueCyber - CTF Event Tracker - an official listing of CTF participants and tracking of performance between events.
  3. Crisp chat - chat bubble to communicate with the users.
  
+
  Plugins
  
  plugin can do things like - developing plugins
