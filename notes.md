@@ -1,5 +1,4 @@
 
-***
 
 # CTFd Setup and Management
 
@@ -119,4 +118,5 @@ Note: The default Docker Compose configuration does not configure SSL/TLS.
 - **Crisp Chat**: Chat bubble for user communication.
 
 ***
+
 
